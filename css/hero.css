@@ -8,7 +8,15 @@ body {
 /* header styles */
 
 header {
-	background-color: lightblue;
+		
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#add8e6+0,ffffff+100 */
+	background: #add8e6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #add8e6 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #add8e6 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #add8e6 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#add8e6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -32,7 +40,8 @@ a:hover {
 }
 
 header h1 {
-	color: white;
+	color: firebrick;
+	text-shadow: 2px 2px 2px darkorange;
 	font-size: 50px;
 }
 
@@ -50,6 +59,11 @@ main {
 
 main img {
 	max-width: 100%;
+}
+
+ul img {
+	width: 30px;
+	border-radius: 10px;
 }
 
 footer {
